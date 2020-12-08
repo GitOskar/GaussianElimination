@@ -80,23 +80,4 @@ public class GaussianElimination
 
         return resault;
     }
-
-    private void printMatrix()
-    {
-        for (int i=0 ; i<n ; i++) {
-            for (int j = 0; j < n + 1; j++)
-                System.out.print(matrix[i][j] + " \t");
-            System.out.println();
-        }
-    }
-
-    public static void printResult(double[] result)
-    {
-        char variable = 'a';
-        for (int i=0 ; i<result.length ; i++)
-        {
-            System.out.println(variable + " = " + result[i]);
-            variable++;
-        }
-    }
 }

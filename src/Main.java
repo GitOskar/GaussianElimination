@@ -9,7 +9,7 @@ public class Main {
         GaussianElimination gaussianElimination = new GaussianElimination(matrix);
         double[] result = gaussianElimination.solve();
 
-        GaussianElimination.printResult(result);
+        Printer.printResult(result);
     }
 
 }
